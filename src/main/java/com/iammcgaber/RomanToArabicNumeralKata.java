@@ -2,7 +2,13 @@ package com.iammcgaber;
 
 public class RomanToArabicNumeralKata {
 	public int arabicNumerals(String roman) {
-		return 1;
+		if(roman.equals("I")) {
+			return 1;
+		}
+		else {
+			return 5;
+		}
+		
 	}
 	
 }
