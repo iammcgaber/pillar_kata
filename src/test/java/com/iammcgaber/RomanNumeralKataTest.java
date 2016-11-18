@@ -178,4 +178,52 @@ public class RomanNumeralKataTest {
 		Assert.assertEquals("CMXCIX", output);
 	}
 	
+	
+	@Test
+	public void takes_100_returns_M() {
+		//Arrange
+		
+		
+		//Act
+		String output = kata.romanNumerals(1000);
+		
+		//Assert
+		Assert.assertEquals("M", output);
+	}
+	
+	@Test
+	public void takes_2345_returns_MMCCCXLV() {
+		//Arrange
+		
+		
+		//Act
+		String output = kata.romanNumerals(2345);
+		
+		//Assert
+		Assert.assertEquals("MMCCCXLV", output);
+	}
+	
+	@Test
+	public void takes_4999_returns_MMMMCMXCIX() {
+		//Arrange
+		
+		
+		//Act
+		String output = kata.romanNumerals(4999);
+		
+		//Assert
+		Assert.assertEquals("MMMMCMXCIX", output);
+	}
+	
+	@Test
+	public void takes_3019_returns_MMMXIX() {
+		//Arrange
+		
+		
+		//Act
+		String output = kata.romanNumerals(3019);
+		
+		//Assert
+		Assert.assertEquals("MMMXIX", output);
+	}
 }
