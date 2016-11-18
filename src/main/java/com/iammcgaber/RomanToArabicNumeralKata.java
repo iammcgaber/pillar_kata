@@ -5,8 +5,11 @@ public class RomanToArabicNumeralKata {
 		if(roman.equals("I")) {
 			return 1;
 		}
-		else {
+		else if (roman.equals("V")) {
 			return 5;
+		}
+		else {
+			return 10;
 		}
 		
 	}

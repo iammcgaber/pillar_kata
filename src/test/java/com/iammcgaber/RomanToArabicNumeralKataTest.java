@@ -45,5 +45,13 @@ public class RomanToArabicNumeralKataTest {
 		Assert.assertEquals(5, output);
 	}
 	
+	@Test
+	public void enter_X_returns_10() {
+		//Act
+		output = kata.arabicNumerals("X");
+		
+		//Assert
+		Assert.assertEquals(10, output);
+	}
 	
 }
