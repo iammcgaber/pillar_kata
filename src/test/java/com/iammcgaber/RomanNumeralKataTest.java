@@ -54,5 +54,31 @@ public class RomanNumeralKataTest {
 		//Assert
 		Assert.assertEquals("II", output);
 	}
+	
+	@Test
+	public void takes_7_returns_VII() {
+		//Arrange
+		
+		
+		//Act
+		String output = kata.romanNumerals(7);
+		
+		//Assert
+		Assert.assertEquals("VII", output);
+	}
+	
+	//At this point, everything under 10 should pass.  The next tests will go beyond that.
 
+	
+	@Test
+	public void takes_11_returns_XI() {
+		//Arrange
+		
+		
+		//Act
+		String output = kata.romanNumerals(11);
+		
+		//Assert
+		Assert.assertEquals("XI", output);
+	}
 }
