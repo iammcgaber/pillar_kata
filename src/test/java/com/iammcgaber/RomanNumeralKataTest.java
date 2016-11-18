@@ -42,5 +42,17 @@ public class RomanNumeralKataTest {
 		//Assert
 		Assert.assertEquals("V", output);
 	}
+	
+	@Test
+	public void takes_2_returns_II() {
+		//Arrange
+		
+		
+		//Act
+		String output = kata.romanNumerals(2);
+		
+		//Assert
+		Assert.assertEquals("II", output);
+	}
 
 }
