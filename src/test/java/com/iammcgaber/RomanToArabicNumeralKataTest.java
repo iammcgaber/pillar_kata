@@ -72,4 +72,89 @@ public class RomanToArabicNumeralKataTest {
 		Assert.assertEquals(22, output);
 	}
 	
+	@Test
+	public void enter_XXXIX_returns_39() {
+		//Act
+		output = kata.arabicNumerals("XXXIX");
+		
+		//Assert
+		Assert.assertEquals(39, output);
+	}
+	
+	//At this point we can convert anything up to 39.
+	
+	@Test
+	public void enter_XL_returns_40() {
+		//Act
+		output = kata.arabicNumerals("XL");
+		
+		//Assert
+		Assert.assertEquals(40, output);
+	}
+	
+	@Test
+	public void enter_L_returns_50() {
+		//Act
+		output = kata.arabicNumerals("L");
+		
+		//Assert
+		Assert.assertEquals(50, output);
+	}
+	
+	@Test
+	public void enter_C_returns_100() {
+		//Act
+		output = kata.arabicNumerals("C");
+		
+		//Assert
+		Assert.assertEquals(100, output);
+	}
+	
+	@Test
+	public void enter_M_returns_1000() {
+		//Act
+		output = kata.arabicNumerals("M");
+		
+		//Assert
+		Assert.assertEquals(1000, output);
+	}
+	
+	@Test
+	public void enter_MCCXXXIV_returns_1234() {
+		//Act
+		output = kata.arabicNumerals("MCCXXXIV");
+		
+		//Assert
+		Assert.assertEquals(1234, output);
+	}
+	
+	@Test
+	public void enter_MCCCXIII_returns_1313() {
+		//Act
+		output = kata.arabicNumerals("MCCCXIII");
+		
+		//Assert
+		Assert.assertEquals(1313, output);
+	}
+	
+	@Test
+	public void enter_MMMMCMXCIX_returns_4999() {
+		//Act
+		output = kata.arabicNumerals("MMMMCMXCIX");
+		
+		//Assert
+		Assert.assertEquals(4999, output);
+	}
+	
+	@Test
+	public void enter_empty_string_returns_zero() {
+		//Act
+		output = kata.arabicNumerals("");
+		
+		//Assert
+		Assert.assertEquals(0, output);
+	}
+	
+	//At this point any number up to 4999 can be converted successfully.
+	
 }

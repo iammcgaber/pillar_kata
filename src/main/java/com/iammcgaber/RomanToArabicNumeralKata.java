@@ -9,9 +9,14 @@ public class RomanToArabicNumeralKata {
 		int value;
 		
 		Map<String, Integer> numeralValue = new TreeMap<String, Integer>();
+		numeralValue.put("", 0);
 		numeralValue.put("I", 1);
 		numeralValue.put("V", 5);
 		numeralValue.put("X", 10);
+		numeralValue.put("L", 50);
+		numeralValue.put("C", 100);
+		numeralValue.put("D", 500);
+		numeralValue.put("M", 1000);
 		
 		String[] broken = roman.split("");
 		
