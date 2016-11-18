@@ -81,4 +81,101 @@ public class RomanNumeralKataTest {
 		//Assert
 		Assert.assertEquals("XI", output);
 	}
+	
+	@Test
+	public void takes_18_returns_XVIII() {
+		//Arrange
+		
+		
+		//Act
+		String output = kata.romanNumerals(18);
+		
+		//Assert
+		Assert.assertEquals("XVIII", output);
+	}
+	
+	@Test
+	public void takes_21_returns_XXI() {
+		//Arrange
+		
+		
+		//Act
+		String output = kata.romanNumerals(21);
+		
+		//Assert
+		Assert.assertEquals("XXI", output);
+	}
+	
+	@Test
+	public void takes_99_returns_XCIX() {
+		//Arrange
+		
+		
+		//Act
+		String output = kata.romanNumerals(99);
+		
+		//Assert
+		Assert.assertEquals("XCIX", output);
+	}
+	
+	@Test
+	public void takes_100_returns_C() {
+		//Arrange
+		
+		
+		//Act
+		String output = kata.romanNumerals(100);
+		
+		//Assert
+		Assert.assertEquals("C", output);
+	}
+	
+	@Test
+	public void takes_101_returns_CI() {
+		//Arrange
+		
+		
+		//Act
+		String output = kata.romanNumerals(101);
+		
+		//Assert
+		Assert.assertEquals("CI", output);
+	}
+	
+	@Test
+	public void takes_734_returns_DCCXXXIV() {
+		//Arrange
+		
+		
+		//Act
+		String output = kata.romanNumerals(734);
+		
+		//Assert
+		Assert.assertEquals("DCCXXXIV", output);
+	}
+	
+	@Test
+	public void takes_777_returns_DCCLXXVII() {
+		//Arrange
+		
+		
+		//Act
+		String output = kata.romanNumerals(777);
+		
+		//Assert
+		Assert.assertEquals("DCCLXXVII", output);
+	}
+	
+	@Test
+	public void takes_999_returns_CMXCIX() {
+		//Arrange
+		
+		
+		//Act
+		String output = kata.romanNumerals(999);
+		
+		//Assert
+		Assert.assertEquals("CMXCIX", output);
+	}
+	
 }
