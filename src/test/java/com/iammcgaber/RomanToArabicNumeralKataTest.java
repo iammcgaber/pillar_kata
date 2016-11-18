@@ -8,6 +8,7 @@ import org.junit.Test;
 
 public class RomanToArabicNumeralKataTest {
 	RomanToArabicNumeralKata kata;
+	int output;
 	
 	@Before
 	public void create_new_object() {
@@ -24,6 +25,15 @@ public class RomanToArabicNumeralKataTest {
 		
 		//Assert
 		Assert.assertNotNull(kata);
+	}
+	
+	@Test
+	public void enter_I_returns_1() {
+		//Act
+		output = kata.arabicNumerals("I");
+		
+		//Assert
+		Assert.assertEquals(1, output);
 	}
 	
 	
