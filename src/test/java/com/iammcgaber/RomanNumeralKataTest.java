@@ -226,4 +226,16 @@ public class RomanNumeralKataTest {
 		//Assert
 		Assert.assertEquals("MMMXIX", output);
 	}
+	
+	@Test
+	public void takes_1234_returns_MCCXXXIV() {
+		//Arrange
+		
+		
+		//Act
+		String output = kata.romanNumerals(1234);
+		
+		//Assert
+		Assert.assertEquals("MCCXXXIV", output);
+	}
 }
