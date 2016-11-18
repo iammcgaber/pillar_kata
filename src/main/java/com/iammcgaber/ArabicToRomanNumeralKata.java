@@ -3,10 +3,11 @@ package com.iammcgaber;
 import java.util.ArrayList;
 import java.util.List;
 
-public class RomanNumeralKata {
+public class ArabicToRomanNumeralKata {
 
 	
 	public String romanNumerals(int val) {
-		return "";
+		
+		return "I";
 	}
 }
