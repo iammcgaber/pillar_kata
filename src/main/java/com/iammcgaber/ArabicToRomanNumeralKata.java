@@ -7,7 +7,13 @@ public class ArabicToRomanNumeralKata {
 
 	
 	public String romanNumerals(int val) {
-		
-		return "I";
+		String roman = "";
+		if(val == 1) {
+			roman = "I";
+		}
+		else {
+			roman = "V";
+		}
+		return roman;
 	}
 }

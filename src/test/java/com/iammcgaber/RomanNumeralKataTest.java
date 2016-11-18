@@ -30,5 +30,17 @@ public class RomanNumeralKataTest {
 		//Assert
 		Assert.assertEquals("I", output);
 	}
+	
+	@Test
+	public void takes_5_returns_V() {
+		//Arrange
+		
+		
+		//Act
+		String output = kata.romanNumerals(5);
+		
+		//Assert
+		Assert.assertEquals("V", output);
+	}
 
 }
